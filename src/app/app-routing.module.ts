@@ -4,16 +4,16 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { LoginComponent } from './login/login.component';
-import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { SellerHomeComponent } from './seller-home/seller-home.component';
-import { SellerLoginComponent } from './seller-login/seller-login.component';
-import { SellerRegistrationComponent } from './seller-registration/seller-registration.component';
 import { ShopComponent } from './shop/shop.component';
+import { LoginComponent } from './login/login.component';
+import { SellerLoginComponent } from './seller-login/seller-login.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { SellerRegistrationComponent } from './seller-registration/seller-registration.component';
+import { CartComponent } from './cart/cart.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
-import { CartComponent } from './cart/cart.component';
-import { RegistrationComponent } from './registration/registration.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 
 const routes: Routes = [

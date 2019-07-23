@@ -1,26 +1,24 @@
 <div class="container">
-
-<div class="login-box col-6">
-    <div class="login-logo col-5">
-        <div class="logo">
-            <img height=150 src="https://previews.dropbox.com/p/thumb/AAcphPNj0U15TWYrjvskhIOoZFr91CORmL16Vh14PVL3CzglUamgm8gUBGn3yGF2eZGEro_xQgFYM_OBEqWuECcW2I9ACL5Qe0pIWDnkLpyczgKiPZ68yc6o7V8vXLsQkC-kuV_Nw0aqCRrwOmwthKV1oK7vn37VzRcwHn-D-JHAWnd6_we8VkxYRT-IwVaZq9oEPk74iV96VqUg_lFRu9fq39IQ4FK-LdHFQXANoZ2JnA5QMFdmrxmVjh2KO7MmkBiCBLHH1od3U0n7hFffQjE9Oh85ngaOwoo-6yu6TUfXK4EZQ8aM22bj0CEKDGlx6mkJsqGSzcrtElfSEMvrWXCs/p.png?fv_content=true&size_mode=5">
-    
+    <div class="login-box col-6">
+        <div class="login-logo col-5">
+            <div class="logo">
+                <img height=150 src="https://previews.dropbox.com/p/thumb/AAcphPNj0U15TWYrjvskhIOoZFr91CORmL16Vh14PVL3CzglUamgm8gUBGn3yGF2eZGEro_xQgFYM_OBEqWuECcW2I9ACL5Qe0pIWDnkLpyczgKiPZ68yc6o7V8vXLsQkC-kuV_Nw0aqCRrwOmwthKV1oK7vn37VzRcwHn-D-JHAWnd6_we8VkxYRT-IwVaZq9oEPk74iV96VqUg_lFRu9fq39IQ4FK-LdHFQXANoZ2JnA5QMFdmrxmVjh2KO7MmkBiCBLHH1od3U0n7hFffQjE9Oh85ngaOwoo-6yu6TUfXK4EZQ8aM22bj0CEKDGlx6mkJsqGSzcrtElfSEMvrWXCs/p.png?fv_content=true&size_mode=5">
+        
+            </div>
+        </div>
+        <br>
+        <span>Login</span>
+        <div>
+            <form (ngSubmit)="authentication()">
+                <div class="form-group">
+                    <label for="usr">Name:</label>
+                    <input type="text" class="form-control" [(ngModel)]="username" name="username">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" [(ngModel)]="password" name="password">
+                </div>
+            </form>
         </div>
     </div>
-    <br>
-    <span>Login</span>
-    <div>
-        <form (ngSubmit)="authentication()">
-            <div class="form-group">
-                <label for="usr">Name:</label>
-                <input type="text" class="form-control" [(ngModel)]="username">
-            </div>
-            <div class="form-group">
-                <label for="pwd">Password:</label>
-                <input type="password" class="form-control" [(ngModel)]="password">
-            </div>
-        </form>
-    </div>
-</div>
-
 </div>
