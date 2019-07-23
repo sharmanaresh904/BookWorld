@@ -37,7 +37,7 @@ var Product=new Schema({
     productDiscount:
     {
         type: Number,
-        required: "kindly enter discount of the product"
+        
     },
     productQuantity:
     {
